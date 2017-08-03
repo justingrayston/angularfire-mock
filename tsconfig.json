@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "emitError": false,
+    "target": "ES5",
+    "sourceMap": false,
+    "declaration": true,
+    "module": "commonjs",
+    "noExternalResolve": false,
+    "sortOutput": true,
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "filesGlob": [
+    "typings/browser.d.ts",
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ],
+  "files": [
+    "typings/browser.d.ts",
+    "src/index.ts",
+    "src/main/auth/mock-angularefire-auth.spec.ts",
+    "src/main/auth/mock-angularfire-auth.ts",
+    "src/main/database/mock-angularfire-database.spec.ts",
+    "src/main/database/mock-angularfire-database.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
