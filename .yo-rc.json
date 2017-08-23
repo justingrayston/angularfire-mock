@@ -1,0 +1,25 @@
+{
+  "generator-ngx-library": {
+    "authorName": "Justin Grayston",
+    "authorEmail": "justingrayston@gmail.com",
+    "githubUsername": "justingrayston",
+    "projectName": "angularfire-mock",
+    "projectVersion": "0.0.1",
+    "projectDescription": "Mock angularfire for testing.",
+    "projectKeywords": [
+      "ng",
+      "angularfire2",
+      "angular",
+      "firebase",
+      "testing"
+    ],
+    "ngPrefix": "ng-fire",
+    "ngVersion": "4.0.0",
+    "ngModules": [
+      "core",
+      "common"
+    ],
+    "useGreenkeeper": true,
+    "useCompodoc": true
+  }
+}
